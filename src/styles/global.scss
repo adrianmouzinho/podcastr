@@ -12,7 +12,8 @@
     --grey-200: #AFB2B1;
     --grey-500: #808080;
     --grey-800: #494D4B;
-    --grey-900: #3f3f3f;
+    --grey-900: #484848;
+    --grey-1000: #3f3f3f;
 
     --green-500: #84D361;
 
@@ -35,7 +36,7 @@
 }
 
 body {
-    background: var(--grey-900);
+    background: var(--grey-1000);
 }
 
 body, input, textarea, button {
