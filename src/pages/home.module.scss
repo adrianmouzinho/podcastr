@@ -1,0 +1,112 @@
+.homepage {
+    padding: 0 4rem;
+    height: calc(100vh - 6.5rem);
+    overflow-y: scroll;
+
+    h2 {
+        margin-top: 2rem;
+        margin-bottom:  1.5rem;
+    }
+}
+
+.latestEpisodes {
+    ul {
+        list-style: none;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        
+
+        li {
+            background: var(--grey-900);
+            border: 1px solid var(--grey-800);
+            padding: 1rem;
+            border-radius: 1.25rem;
+            position: relative;
+
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 5rem;
+                height: 5rem;
+                border-radius: 0.5rem;
+            }
+
+            .episodeDetails {
+                flex: 1;
+                margin-left: 1rem;
+
+                a {
+                    display: block;
+                    color: var(--white);
+                    font-family: Lexend, sans-serif;
+                    font-weight: 600;
+                    text-decoration: none;
+                    line-height: 1.2rem;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                p {
+                    font-size: 0.8rem;
+                    margin-top: 0.5rem;
+                    max-width: 70%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+                span {
+                    display: inline-block;
+                    margin-top: 0.5rem;
+                    font-size: 0.8rem;
+
+                    &:last-child {
+                        margin-left: 0.5rem;
+                        padding-left: 0.5rem;
+                        position: relative;
+
+                        &::before {
+                            content: '';
+                            width: 4px;
+                            height: 4px;
+                            border-radius: 2px;
+                            background: #DDD;
+                            position: absolute;
+                            left: 0;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+            }
+
+            button {
+                position: absolute;
+                right: 1.5rem;
+                bottom: 1.5rem;
+
+                width: 2.5rem;
+                height: 2.5rem;
+                background: var(--grey-800);
+                border: 1px solid var(--grey-500);
+                border-radius: 0.675rem;
+                font-size: 0;
+
+                transition: filter 0.2s;
+
+                img {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+
+                &:hover {
+                    filter: brightness(0.9);
+                }
+            }
+        }
+    }
+}

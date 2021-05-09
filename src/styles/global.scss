@@ -23,6 +23,10 @@
     --purple-800: #6F48C9;
 }
 
+html {
+    font-size: 14px;
+}
+
 @media (max-widht: 1080px) {
     html {
         font-size: 93.75%; // 15px
@@ -51,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 h2 {
