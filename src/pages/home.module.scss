@@ -18,8 +18,8 @@
         
 
         li {
-            background: var(--grey-900);
-            border: 1px solid var(--grey-800);
+            background: var(--gray-900);
+            border: 1px solid var(--gray-800);
             padding: 1rem;
             border-radius: 1.25rem;
             position: relative;
@@ -91,8 +91,8 @@
 
                 width: 2.5rem;
                 height: 2.5rem;
-                background: var(--grey-800);
-                border: 1px solid var(--grey-500);
+                background: var(--gray-800);
+                border: 1px solid var(--gray-500);
                 border-radius: 0.675rem;
                 font-size: 0;
 
@@ -119,11 +119,11 @@
 
         th, td {
             padding: 0.75rem 0.75rem;
-            border-bottom: 1px solid var(--grey-800);
+            border-bottom: 1px solid var(--gray-800);
         }
 
         th {
-            color: var(--grey-100);
+            color: var(--gray-100);
             text-transform: uppercase;
             font: 500 0.75rem Lexend, sans-serif;
             text-align: left;
@@ -139,7 +139,7 @@
             }
 
             a {
-                color: var(--grey-50);
+                color: var(--gray-50);
                 font-family: Lexend, sans-serif;
                 font-weight: 600;
                 text-decoration: none;
@@ -154,8 +154,8 @@
             button {
                 width: 2rem;
                 height: 2rem;
-                background: var(--grey-800);
-                border: 1px solid var(--grey-500);
+                background: var(--gray-800);
+                border: 1px solid var(--gray-500);
                 border-radius: 0.55rem;
                 font-size: 0;
 

@@ -7,13 +7,13 @@
 :root {
     --white: #fff;
 
-    --grey-50: #F7F8FA;
-    --grey-100: #E6E8EB;
-    --grey-200: #AFB2B1;
-    --grey-500: #808080;
-    --grey-800: #494D4B;
-    --grey-900: #484848;
-    --grey-1000: #3f3f3f;
+    --gray-50: #F7F8FA;
+    --gray-100: #E6E8EB;
+    --gray-200: #AFB2B1;
+    --gray-500: #808080;
+    --gray-800: #494D4B;
+    --gray-900: #484848;
+    --gray-1000: #3f3f3f;
 
     --green-500: #84D361;
 
@@ -40,22 +40,22 @@ html {
 }
 
 body {
-    background: var(--grey-1000);
+    background: var(--gray-1000);
 }
 
 body, input, textarea, button {
     font: 500 1rem Inter, sans-serif;
-    color: var(--grey-50);
+    color: var(--gray-50);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-family: Lexend, sans-serif;
-    color: var(--grey-50);
+    color: var(--gray-50);
 }
 
 h1 {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 h2 {
