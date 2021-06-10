@@ -20,6 +20,7 @@ Este é um exemplo de como você pode dar instruções sobre como configurar seu
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js, Yarn.
 
 ### Instalação
+```bash
 # Clone este repositório
 $ git clone https://github.com/GilbertoASJ/Podcastr.git
 
@@ -34,6 +35,7 @@ $ yarn server
 
 # Execute a aplicação em modo de desenvolvimento
 $ yarn dev
+```
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
